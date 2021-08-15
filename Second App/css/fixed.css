@@ -1,0 +1,443 @@
+/**********/
+
+
+
+body {
+
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.h2 {
+    font-weight: bold;
+}
+
+/*************/
+
+
+
+
+/**** start navbar    b ****/
+
+
+.navbar-expand-lg {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container .one-head {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: #eee;
+}
+
+
+
+
+
+
+
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.navbar-toggler:not(:disabled):not(.disabled) {
+    color: #fff;
+    border: 1px solid #eee;
+
+}
+
+.navbar-toggler-icon {
+    color: #fff
+}
+
+/**** end navbar ***/
+/**** start carsoul ***/
+
+.carousel .carousel-inner .w-100 {
+    max-height: 700px;
+    overflow: hidden
+}
+
+.carousel-inner .carousel-item .carousel-caption {
+    margin-bottom: 250px;
+}
+
+
+/****** end carsoul ***/
+
+/*** starat spaceil **/
+
+.spaceil {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center !important;
+}
+
+.spaceil .container .h2 {
+    font-weight: bold;
+}
+
+.spaceil .container p {
+    color: #aaa;
+    margin-top: 20px;
+
+}
+
+.spaceil .container .row .one-child {
+    margin-top: 20px;
+    background-image: url("../images/001.jpg");
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.spaceil .container .row .one-child span {
+    position: absolute;
+    top: 260px;
+    left: 385px;
+    width: 29%;
+    height: 35px;
+    background-color: rgba(0, 0, 0, 0.5);
+    line-height: 30px;
+    font-weighT: bold;
+    color: #fff;
+
+    transition: all .44s ease-in-out;
+}
+
+@media(max-width:768px) {
+    .spaceil .container .row .one-child span {
+        position: absolute;
+        top: 260px;
+        left: 100px;
+        width: 60%;
+        height: 35px;
+        background-color: rgba(0, 0, 0, 0.5);
+        line-height: 30px;
+        font-weighT: bold;
+        color: #fff;
+
+        transition: all .44s ease-in-out;
+    }
+}
+
+.spaceil .container .row .one-child:hover span {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.spaceil .container .row .two {
+    background-image: url("../images/002.jpg")
+}
+
+.spaceil .container .row .three {
+    background-image: url("../images/003.jpg")
+}
+
+/*** end spaceil ***/
+
+/*** start works ***/
+
+
+.works {}
+
+/***  end works ***/
+
+/*** strat feature work ***/
+
+.features-work {
+
+    padding-top: 60px;
+    background-color: #C4D1D3;
+    padding-bottom: 60px;
+
+}
+
+.features-work .container p {
+    width: 80%;
+    margin: auto;
+
+}
+
+.features-work .container .gallery {
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.features-work .container .gallery img {
+    max-width: 100%;
+
+}
+
+.features-work .container .gallery .thumbnails {
+    overflow: hidden;
+
+}
+
+.features-work .container .gallery .thumbnails img {
+    width: 20%;
+    float: left;
+    opacity: 1;
+
+
+}
+
+.features-work .container .gallery .thumbnails .active,
+.features-work .container .gallery .thumbnails img:hover {
+    opacity: 0.2;
+    cursor: pointer;
+
+}
+
+.features-work .container .gallery .thumbnails .over i {
+    margin-top: 70px;
+}
+
+/*** end feature work ***/
+/*** start skills ***/
+.skills .row .child-first div {
+    height: 100%;
+
+    overflow: hidden;
+}
+
+.skills .row .child-first div img {
+    height: 100%;
+    width: 100%
+}
+
+.skills .row .child-one {
+    margin-top: 45px;
+
+}
+
+.skills .row .pro {
+    width: 100%;
+    height: 25px;
+    border: 0;
+    overflow: hidden;
+    border-radius: 2px;
+    background-color: #eee;
+    margin-top: 20px;
+    margin-bottom: 23px;
+}
+
+.skills .row .pro span {
+    height: 100%;
+    display: block;
+    background-color: #A8CACB;
+    width: 0;
+    line-height: 20px;
+}
+
+/*** end skills ***/
+
+/**** start  journal ***/
+.journal {
+    background-color: #F2F5F7;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.journal .container .row .one-child {
+    border: 1px solid #eee;
+    position: relative;
+    overflow: hidden;
+    margin-top: 15px;
+
+}
+
+.journal .container .row .one-child img {
+    width: 100%;
+}
+
+.journal .container .row .one-child h3 {
+    font-size: 18px;
+    margin-top: 20px;
+
+
+}
+
+.journal .container .row .one-child span {
+    font-size: 13px;
+    color: #aaa;
+
+}
+
+.journal .container .row .one-child p {
+    color: #888
+}
+
+/*** end journal ****/
+
+
+/*** start footer parent ***/
+.footer {
+    color: #fff;
+
+    background-color: #26262A
+}
+
+.footer .container .row .child-one {
+    margin-top: 30px;
+
+}
+
+.footer .container .row .child-one h3 {
+    margin-bottom: 24px
+}
+
+.footer .container .row .child-one .feat {
+    margin-bottom: 6px;
+    margin-top: 14px;
+}
+
+.footer .container .row .child-one div {
+    float: left;
+    margin-right: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+}
+
+.footer .container .row .child-tow {
+    margin-top: 30px;
+
+}
+
+.footer .container .row .child-tow h3 {
+    margin-lefT: 0;
+}
+
+.footer .container .row .child-tow .links li {
+    display: inline-block;
+    margin: 5px;
+    border: 1px solid #202024;
+    padding: 10px;
+    background-color: #202024;
+    -webkit-transition: all .44s ease-in-out;
+    -ms-transition: all .44s ease-in-out;
+
+    -o-transition: all .44s ease-in-out;
+    transition: all .44s ease-in-out;
+    letter-spacing: 1px
+}
+
+.footer .container .row .child-tow .links li:hover {
+    background-color: #85babc;
+    border: 1px solid #85babc;
+    cursor: pointer
+}
+
+.footer .container .row .child-tow .line-two li {
+    display: inline-block;
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    cursor: pointer
+}
+
+.footer .container .row .child-tow .line-two li:first-child {
+    background-color: #F27407;
+    color: #fff
+}
+
+.footer .container .row .child-tow .line-two li:nth-child(2) {
+    background-color: #0D6BA5;
+    color: #fff
+}
+
+.footer .container .row .child-tow .line-two li:nth-child(3) {
+    background-color: #335296;
+    color: #fff
+}
+
+.footer .container .row .child-tow .line-two li:nth-child(4) {
+    background-color: #91222A;
+    color: #fff
+}
+
+
+.footer .container .row .child-tow .line-two li:last-child {
+    background-color: #417E9D;
+    color: #fff;
+
+}
+
+.footer .container .row .child-three {
+    color: #aaa;
+    margin-top: 30px;
+}
+
+.footer .container .row .child-three h4 {
+    margin-bottom: 20px;
+    color: #fff;
+
+}
+
+.footer .container .row .child-three form input {
+    width: 70%;
+    height: 40px;
+    border: 0;
+    background-color: #202024;
+    padding-left: 10px;
+    color: #fff;
+
+}
+
+.footer .container .row .child-three form input::placeholder {
+    color: #eee;
+}
+
+.footer .container .row .child-three form button {
+    height: 40px;
+    width: 50px;
+    background-color: #0D6BA5;
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: all .44s ease-in-out;
+    -moz-transition: all .44s ease-in-out;
+
+    -ms-transition: all .44s ease-in-out;
+    -o-transition: all .44s ease-in-out;
+    transition: all .44s ease-in-out;
+}
+
+.footer .container .row .child-three form button:hover {
+    background-color: #0C537C
+}
+
+.footer .container .row .child-three h6 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer .container .row .child-three i {
+    color: #fff
+}
+
+/** end footer parent  ***/
+
+/*&***** start footer ***/
+footer {
+    background-color: #212124;
+    color: #aaa;
+    padding: 10px 0;
+
+}
+
+/*** end  foooter ***/
